@@ -48,9 +48,9 @@ const calcular = (operador) => {
     }
     if (valorAtual != '' && holder != '') {
         igual()
-        document.getElementById('acumulador').innerHTML = 0
         calcular(operador)
     }
+    document.getElementById('acumulador').innerHTML = 0
 }
 
 const igual = () => {
