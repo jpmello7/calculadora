@@ -1,6 +1,3 @@
-//lhes apresento o código mais confuso de todos os tempos
-//porem funciona...
-
 const adiciona = (num) => {
     const valorAtual = document.getElementById('resultado').innerHTML
     const acc = document.getElementById('acumulador').innerHTML
@@ -44,7 +41,6 @@ const calcular = (operador) => {
     const holder = document.getElementById('holder').innerHTML
     const acc = document.getElementById('acumulador').innerHTML
     if (valorAtual == '') return 0
-    if (acc != '0') return limpar()
     if(holder==''){
     document.getElementById('holder').innerHTML = valorAtual + operador
     document.getElementById('resultado').innerHTML = ""
